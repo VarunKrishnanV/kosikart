@@ -21,13 +21,13 @@ function Categories() {
                 {
                     categories.map(item => {
                         return (
-                        <li>
-                            <a href='#'>
-                                {item}
-                                <KeyboardArrowDownIcon style={{display : "inlineBlock", marginTop : "5px"}} />
-                            </a>
-                        </li>
-                            );
+                            <li>
+                                <a href='#'>
+                                    {item}
+                                    <KeyboardArrowDownIcon style={{ display: "inlineBlock", marginTop: "5px" }} />
+                                </a>
+                            </li>
+                        );
                     })
                 }
             </CategoryItems>
@@ -40,7 +40,10 @@ export default Categories
 const Container = styled.nav`
     background : #353535;
     font-size : 1.6em;
-    padding : 3px
+    padding : 3px;
+    @media all and (max-width:768px){
+        display : none;
+    }
 `
 
 const CategoryItems = styled.ul`

@@ -15,14 +15,14 @@ function App() {
 
           {/* header */}
 
-          {/* <Header /> */}
+          <Header />
           {/* <Signup /> */}
           {/* <Login /> */}
           {/* <AddNewBook /> */}
           {/* <Home /> */}
           {/* <ProductDetailsPage /> */}
           {/* <Checkout /> */}
-          <AccountDetails />
+          {/* <AccountDetails /> */}
     </div>
   );
 }
